@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.104.2" />
+    <title>Signup</title>
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- //add bootstrap 5 css file -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Link -->
+    <script
+      src="https://kit.fontawesome.com/cf42e3019c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body class="text-center">
+    <main class="form-signin w-100 m-auto">
+      <form method="post" action="/">
+        <i class="fa-solid fa-user user"></i>
+        <h1 class="h3 mb-3 fw-normal">Please sign up</h1>
+
+        <div class="form-floating">
+          <input
+            type="text"
+            class="form-control"
+            name="firstName"
+            id="firstName"
+            placeholder="name@example.com"
+            class="input"
+            required
+            autofocus
+          />
+          <label for="floatingInput">First Name</label>
+        </div>
+        <div class="form-floating">
+          <input
+            type="text"
+            class="form-control"
+            name="lastName"
+            id="lastName"
+            placeholder="name@example.com"
+            class="input"
+            required
+          />
+          <label for="floatingInput">Last Name</label>
+        </div>
+        <div class="form-floating">
+          <input
+            type="email"
+            class="form-control"
+            name="email"
+            id="email"
+            placeholder="name@example.com"
+            class="input"
+            required
+          />
+          <label for="floatingInput">Email</label>
+        </div>
+
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me" /> Remember me
+          </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">
+          Sign up
+        </button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2017–2022</p>
+      </form>
+    </main>
+
+    <!-- add bootstrap 5 js file -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+    <!-- add bundel js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
